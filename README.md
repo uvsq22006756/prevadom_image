@@ -93,3 +93,5 @@ Or un arc a une étiquette qui est la durée inter-action. Cette durée sera cal
 - on instaure une liste qui va donner un poid à chacun des arcs inter-action(probabilité et la somme donne 1). On note p_i la probabilité de l'arc inter-action i.
 - on attribue à chaque arc la proportion de la durée interaction totale lui correspondant à savoir D*p_i.
 
+**Remarque importante :**
+**La concaténation des activités fonctionne sur le même principe.**
