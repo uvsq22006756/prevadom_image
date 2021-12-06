@@ -49,8 +49,7 @@ Reprenons l'exemple de plus tôt ie :
 Notre graphe sera composée de trois noeuds et de deux arcs. 
 ![image](https://github.com/uvsq22006756/prevadom_image/blob/main/ex_action.jpg)
 
+Grâce à la librairie _random_ on va pouvoir choisir une valeur de durée pour chaque arc.
 
-
-
-Grâce à la librairie _random_ on va pouvoir choisir une valeur entre 
+Ici par exemple pour l'arc partant de SBD+ vers WC+ on ca choisir aléatoirement une durée comprise entre les bornes 0 et 600 secondes.
 
