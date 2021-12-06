@@ -14,6 +14,7 @@ On distinguera deux types de personnes agées :
 - [Génération de Datasests](#génération-de-datasests)
   - [Action](#action)
     - [Une histoire de graphes](#une-histoire-de-graphes)
+  - [Activités](#activités)
 
 ---
 
@@ -41,7 +42,7 @@ Pour cela on utilisera la librairie python _networkx_.
 - les noeuds du graphes correspondront à un capteur activé ou non.
 - les arcs eux correspondront à la durée qui s'écoule entre deux capteurs.
 
-Le choix des durées se fera de manière à respecter les durées minimun et maximum données. 
+Le choix des durées se fera de manière à respecter les durées minimun et maximum données.
 
 Reprenons l'exemple de plus tôt ie :
 > ["SDB+",0,600,"WC+",40,3600,"WC-"]
