@@ -63,4 +63,14 @@ Ici par exemple pour l'arc partant de SBD+ vers WC+ on ca choisir aléatoirement
 
 ## Activités
 
-Une activité est considérée comme étant un essemble d'action
+Une activité est considérée comme étant un essemble d'actions.
+Pour pouvoir représenter cette séquence, on va implémenter une classe Activités qui représentera un graphe. Ce graphe sera la concaténation de tous les sous-graphes d'actions.
+
+On définit une activité par 5 paramètres : 
+- Le **nom** de l'activité, par exemple "sleeping", "having lunch", etc. 
+- L'**heureMin** c'est-à-dire l'heure à laquelle l'activité peut  commencer (dans une journée exemple 8h30).
+- L'**heureMax** c'est-à-dire l'heure à laquelle l'activité peut  se terminer (dans une journée exemple l'activité termine au plus tard 22h15).
+- La **duree** la durée de l'activité dans une journée.
+- L'**actionList** l'ensemble des actions qui composent l'activité.
+
+**Remarque : [heureMin:heureMax] représente la plage horaire durant laquelle une activité peut avoir lieu**.
